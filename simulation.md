@@ -38,7 +38,7 @@ legend("topright", c("sample", "theoretical"), lty=c(1,1), col=c("blue", "red"))
 
 Next we look at the theoretical variability by calculating the theoretical standard deviation and theoretical variance. 
 
-'''{r}
+```{r}
 theory_sd <- (1/lambda)/sqrt(n) #find the expected standard deviation
 print(sprintf("The expected standard deviation is %f", theory_sd))
 theory_var <- theory_sd^2 #find the variance of the expected sd
